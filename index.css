@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #f1f5f9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+  padding: 20px 0;
+  font-size: 2em;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+main {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(255,255,255,0.08);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(15px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px;
+}
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+.alt {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+.logout {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+.info-btn {
+  background: linear-gradient(90deg, #facc15, #eab308);
+  color: #1e293b;
+  font-weight: 600;
+}
+.info-btn:hover {
+  background: linear-gradient(90deg, #fde047, #facc15);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.6);
+}
