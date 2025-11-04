@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация – Match The Hidden Symbols</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <header>📝 Регистрация</header>
+
+  <form action="api.php?action=register" method="post">
+    <label>👤 Потребителско име:
+      <input type="text" name="username" required>
+    </label>
+    <label>📧 Имейл:
+      <input type="email" name="email" required>
+    </label>
+    <label>🔒 Парола:
+      <input type="password" name="password" required>
+    </label>
+    <button type="submit">✅ Създай акаунт</button>
+  </form>
+
+  <p>Вече имаш акаунт? <a href="login.php">🔑 Вход</a></p>
+</body>
+</html>
