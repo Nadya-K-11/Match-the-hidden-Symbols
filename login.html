@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Вход – Match The Hidden Symbols</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>🔑 Вход</header>
+
+  <form action="api.php?action=login" method="post">
+    <label>👤 Потребителско име / Имейл:
+      <input type="text" name="login" required>
+    </label>
+    <label>🔒 Парола:
+      <input type="password" name="password" required>
+    </label>
+    <button type="submit">▶ Вход</button>
+  </form>
+
+  <p>Нямаш акаунт? <a href="register.php">📝 Регистрация</a></p>
+</body>
+</html>
